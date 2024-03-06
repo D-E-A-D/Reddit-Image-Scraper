@@ -27,7 +27,31 @@ pip install praw requests python-dotenv
 
 ## Configuration
 
-Create a `.env` file in the root directory of the project and add your Reddit API credentials and other configurations as follows:
+To configure the Reddit Image Downloader, you will need to obtain your Reddit API credentials and create a `.env` file to securely store these credentials. Follow the steps below:
+
+### Step 1: Obtaining Reddit API Credentials
+
+1. Log in to your Reddit account.
+2. Go to [the Reddit app creation page](https://www.reddit.com/prefs/apps).
+3. Click on the "create app" or "create another app" button at the bottom.
+4. Fill out the form:
+   - **name:** Your application's name.
+   - **application type:** Choose "script".
+   - **description:** (Optional) A brief description of your application.
+   - **about url:** (Optional)
+   - **permissions:** (Optional)
+   - **redirect uri:** Use `http://localhost:8080` for a script application.
+5. Click "create app" or "update app" to save your changes.
+
+After creating the app, you will be provided with a `client_id` and a `client_secret`. Note these down as you will need them for your `.env` file.
+
+### Step 2: Creating a .env File
+
+1. In the root directory of your project, create a new file named `.env`.
+2. Open the `.env` file with a text editor of your choice.
+3. Add your Reddit API credentials to the file in the following format:
+
+
 
 REDDIT_CLIENT_ID=your_client_id_here
 
