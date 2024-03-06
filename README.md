@@ -1,4 +1,4 @@
-# Reddit Image Downloader
+# Reddit Image Scraper
 
 This project is a Python script that automates the downloading of image posts from specified subreddits using the Reddit API. It supports fetching images from various listing types (hot, new, top, rising, controversial) and time filters for the 'top' and 'controversial' listings (day, week, month, year, all). The script ensures that only new images are downloaded by keeping track of previously processed posts.
 
