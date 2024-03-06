@@ -30,9 +30,13 @@ pip install praw requests python-dotenv
 Create a `.env` file in the root directory of the project and add your Reddit API credentials and other configurations as follows:
 
 REDDIT_CLIENT_ID=your_client_id_here
+
 REDDIT_CLIENT_SECRET=your_client_secret_here
+
 REDDIT_USERNAME=your_reddit_username_here
+
 REDDIT_PASSWORD=your_reddit_password_here
+
 
 
 ## Usage
